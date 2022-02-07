@@ -13,6 +13,7 @@
 .show-mobile button {
   border: 0;
   background: transparent;
+  cursor: pointer;
 }
 
 .show-mobile .side-menu {

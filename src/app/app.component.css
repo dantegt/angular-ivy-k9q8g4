@@ -1,0 +1,37 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.my-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input {
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.048);
+  padding: px;
+  opacity: 0;
+  transition: all linear 0.5s;
+  margin: 0;
+}
+
+.error-message.invalid {
+  opacity: 1;
+}
+
+.input-group.invalid input {
+  border-color: red;
+}
+
+.input-group.invalid label {
+  color: red;
+}

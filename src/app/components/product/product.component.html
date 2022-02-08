@@ -2,5 +2,9 @@
   <app-img [img]="product.image"></app-img>
   <h2>{{ product.price | currency }}</h2>
   <p>{{ product.title | leet }}</p>
+  <h5>{{ product.category }}</h5>
+  <p>
+    <small>{{ product.description }}</small>
+  </p>
   <button (click)="onAddToCart()">Add to cart</button>
 </div>

@@ -75,6 +75,16 @@
   margin-right: 0.5em;
 }
 
+.counter {
+  background-color: aquamarine;
+  padding: 2px 7px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  font-size: 0.8em;
+}
+
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .show-mobile {
